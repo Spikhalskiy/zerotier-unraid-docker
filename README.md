@@ -4,6 +4,20 @@ ZeroTier Docker for [unRaid](https://lime-technology.com/)
 
 Zerotier is an open source, cross-platform and easy to setup and use virtual LAN / Hamachi alternative available on Android, iOS, Mac, Windows, Linux.
 
+# Usage
+
+This Dockerfile is pushed to [dockerhub](https://hub.docker.com/r/spikhalskiy/zerotier/).
+
+Also, it can be deployed in unRaid using a [template](https://github.com/Spikhalskiy/docker-templates/blob/master/zerotier.xml).
+
+The template is also published in unRaid "Community Applications" store.
+
+# Support and bug reports
+
+This docker has a [support thread](https://lime-technology.com/forums/topic/72030-support-spikhalskiy-zerotier/) on unRaid forum
+
+# Setup
+
 Network and the docker image setup steps:
 1. Create a [https://my.zerotier.com/](https://my.zerotier.com/) account and create a Network there.
 2. Get an ID of the created network (looks something like b4da7454b271902c).
@@ -13,12 +27,3 @@ Network and the docker image setup steps:
 
 Now, when you connect Zerotier on any of your devices - a VPN connection will be set up and all connected devices will be available like they are in the same network.
 SMB shares/TimeMachine will be autodetected and available like you are in the same network, all UIs will be available on \<ip from the step 4\>:\<usual port\>.
-
-# Usage
-
-This Dockerfile is pushed to [dockerhub](https://hub.docker.com/r/spikhalskiy/zerotier/)
-Also, it supposed to be deployed in unRaid using a [template](https://github.com/Spikhalskiy/docker-templates/blob/master/zerotier.xml)
-
-# Support and bug reports
-
-This docker has a [support thread](https://lime-technology.com/forums/topic/72030-support-spikhalskiy-zerotier/) on unRaid forum 
