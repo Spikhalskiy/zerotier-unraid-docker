@@ -9,5 +9,8 @@ fi
 
 /zerotier-one & export APP_PID=$!
 sleep 5
-/zerotier-cli join ${NETWORK_ID}
+for ID in $(echo $NETWORK_ID | tr "," "\n")
+do
+    /zerotier-cli join $ID
+done
 wait $APP_PID
