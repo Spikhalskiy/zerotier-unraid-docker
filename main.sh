@@ -7,7 +7,7 @@ if [ ! -e /dev/net/tun ]; then
         exit 1
 fi
 
-/zerotier-one & export APP_PID=$!
+zerotier-one & export APP_PID=$!
 sleep 5
-/zerotier-cli join ${NETWORK_ID}
+zerotier-cli join ${NETWORK_ID}
 wait $APP_PID
