@@ -14,7 +14,7 @@ The template is also published in unRaid "Community Applications" store.
 
 # Support and bug reports
 
-This docker has a [support thread](https://lime-technology.com/forums/topic/72030-support-spikhalskiy-zerotier/) on unRaid forum
+This docker has a [support thread](https://lime-technology.com/forums/topic/72030-support-spikhalskiy-zerotier/) on unRaid forum. It also includes step-by-step setup instructions.
 
 # Setup
 
