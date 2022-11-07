@@ -1,4 +1,4 @@
-FROM spikhalskiy/zerotier-containerized:1.8.2
+FROM zyclonite/zerotier:1.10.2
 
 COPY main.sh /main.sh
 RUN chmod +x main.sh
