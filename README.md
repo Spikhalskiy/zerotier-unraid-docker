@@ -30,6 +30,9 @@ SMB shares/TimeMachine will be autodetected and available like you are in the sa
 
 # Unraid 6.12+
 
-If you would like to access local system services of Unraid (e.g. ssh or webgui) you must ensure the zerotier interface is added as a listering interface. To do this go to **Settings** -> **Network Settings** in Unraid. Copy the interface name corresponding to Zerotier from the **Routing Table**. The interface usually has a prefix 'zt'. Afterwards paste the interface name into "Include listening interfaces" field under **Interface Extra** section, and hit apply. Kudos to user [Vivent](https://forums.unraid.net/profile/163693-vivent/) who originally reported [this solution](https://forums.unraid.net/topic/72030-support-spikhalskiy-zerotier/?do=findComment&comment=1283870).
+If you would like to access local system services of Unraid (e.g. ssh or webgui) you must ensure the Zerotier interface 
+is added as a listering interface. To do this go to **Settings** -> **Network Settings** in Unraid.
+Copy the interface name corresponding to Zerotier from the **Routing Table**. The interface usually has a prefix 'zt'.
+Afterwards paste the interface name into "Include listening interfaces" field under **Interface Extra** section, and hit apply.
 
-
+Kudos to user [Vivent](https://forums.unraid.net/profile/163693-vivent/) who originally reported [this solution](https://forums.unraid.net/topic/72030-support-spikhalskiy-zerotier/?do=findComment&comment=1283870).
