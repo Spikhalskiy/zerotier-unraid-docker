@@ -35,4 +35,7 @@ is added as a listering interface. To do this go to **Settings** -> **Network Se
 Copy the interface name corresponding to Zerotier from the **Routing Table**. The interface usually has a prefix 'zt'.
 Afterwards paste the interface name into "Include listening interfaces" field under **Interface Extra** section, and hit apply.
 
+**Note:** After a reboot you will need to manually re-apply the setting in order for this to take effect. This is despite the interface appearing as included.
+This appears to be an Unraid bug, last tested on Unraid version 6.12.6.
+
 Kudos to user [Vivent](https://forums.unraid.net/profile/163693-vivent/) who originally reported [this solution](https://forums.unraid.net/topic/72030-support-spikhalskiy-zerotier/?do=findComment&comment=1283870).
